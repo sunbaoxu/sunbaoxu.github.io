@@ -6,8 +6,8 @@
 # Site
 title: Couragelogos
 subtitle:
-description: wublub dubda
-author: Logos
+description: 我的运气还不差，相信自己可以一直快乐
+author: sunbaoxu
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
@@ -217,7 +217,7 @@ font:
 social:
   #LinkLabel: Link
     GitHub: https://github.com/sunbaoxu
-    School: http://www.scut.edu.cn/new
+    # School: http://www.scut.edu.cn/new
 
 
 # Social Links Icons
