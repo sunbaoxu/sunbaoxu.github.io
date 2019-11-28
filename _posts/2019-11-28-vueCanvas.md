@@ -9,19 +9,28 @@ layout: post
 ---
 
 github地址：[https://github.com/sunbaoxu/canvas-back](https://github.com/sunbaoxu/canvas-back) 
+
 文件直接下载地址(vue项目可直接用)：[https://download.csdn.net/download/qq_38998250/12001308](https://download.csdn.net/download/qq_38998250/12001308)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191127164028307.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4OTk4MjUw,size_16,color_FFFFFF,t_70)
 相信大多数人看到这张图片便知道我要实现的效果了，一直觉得这个效果挺不错，心血来潮查了很多资料终于在项目的登录页用到了。废话不多说了，看代码：
 
 ###### 变量：
-mainName : String   | 默认为空 ，画布不监听鼠标移动区域的标签ID
-dotsMax ： Number | 默认15000 ，点与点之间的距离
-RAF    : null 
-canvas : null 
- ctx    : null 
- warea  : null | 鼠标粒子数据
- dots   : []    | 记录创建的粒子数据
- len    : 300 | 粒子个数
+|变量     |   默认值  | 
+|mainName |  ''  | String 画布不监听鼠标移动区域的标签ID
+
+|dotsMax | 15000 | Number 点与点之间的距离
+
+|RAF    | null 
+
+|canvas | null 
+
+|ctx    | null 
+
+|warea  | null | 鼠标粒子数据
+
+|dots   | []    | 记录创建的粒子数据
+
+|len    | 300 | 粒子个数
 
 ###### 1) 首先我们需要先创建一个画布
 ```javascript
