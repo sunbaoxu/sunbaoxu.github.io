@@ -17,19 +17,12 @@ github地址：[https://github.com/sunbaoxu/canvas-back](https://github.com/sunb
 ###### 变量：
 |变量     |   默认值  | 
 |mainName |  ''  | String 画布不监听鼠标移动区域的标签ID
-
 |dotsMax | 15000 | Number 点与点之间的距离
-
-|RAF    | null 
-
-|canvas | null 
-
-|ctx    | null 
-
+|RAF    | null | null
+|canvas | null | null
+|ctx    | null | null
 |warea  | null | 鼠标粒子数据
-
 |dots   | []    | 记录创建的粒子数据
-
 |len    | 300 | 粒子个数
 
 ###### 1) 首先我们需要先创建一个画布
